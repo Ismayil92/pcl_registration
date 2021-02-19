@@ -2,12 +2,12 @@
 <package format="2">
   <name>pcl_registration</name>
   <version>0.0.0</version>
-  <description>Full model alignment</description>
+  <description>The priority_control_project package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="ismayil.ahmadli@unibo.it">ismayil</maintainer>
+  <maintainer email="ismayil@todo.todo">ismayil</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -65,13 +65,21 @@
   <build_depend>tf2_geometry_msgs</build_depend>
   <build_depend>tf2_kdl</build_depend>
   <build_depend>tf2_msgs</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
   <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>python-numpy</build_depend>
+
+
+
 
   <build_export_depend>roscpp</build_export_depend>
   <build_export_depend>rospy</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>eigen</build_export_depend>
   <build_export_depend>tf</build_export_depend>
+  <build_export_depend>tf_conversions</build_export_depend>
   <build_export_depend>tf2</build_export_depend>
   <build_export_depend>tf2_bullet</build_export_depend>
   <build_export_depend>tf2_ros</build_export_depend>
@@ -81,9 +89,12 @@
   <build_export_depend>sensor_msgs</build_export_depend>
   <build_export_depend>trajectory_msgs</build_export_depend>
   <build_export_depend>boost</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
   <build_export_depend>stereo_msgs</build_export_depend>
   <build_export_depend>geometry_msgs</build_export_depend>
-
+  <build_export_depend>python-numpy</build_export_depend>
+  
 
 
   <exec_depend>roscpp</exec_depend>
@@ -95,13 +106,20 @@
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>eigen</exec_depend>
   <exec_depend>tf</exec_depend>
+  <exec_depend>tf_conversions</exec_depend>
   <exec_depend>tf2</exec_depend>
   <exec_depend>tf2_bullet</exec_depend>
   <exec_depend>tf2_ros</exec_depend>
   <exec_depend>tf2_geometry_msgs</exec_depend>
   <exec_depend>tf2_kdl</exec_depend>
   <exec_depend>tf2_msgs</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
   <exec_depend>libpcl-all</exec_depend>
+  <exec_depend>python-numpy</exec_depend>
+
+
+
 
  <!-- <test_depend>rosunit</test_depend> -->
   <!-- The export tag contains other, unspecified, tags -->

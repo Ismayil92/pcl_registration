@@ -229,7 +229,7 @@ int main (int argc, char** argv)
   // ------------------------------------
   pcl::PointCloud<pcl::PointXYZ>::Ptr basic_cloud_ptr (new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PointCloud<pcl::PointXYZ>::Ptr point_cloud_ptr (new pcl::PointCloud<pcl::PointXYZ>);
-  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("shekil_data.pcd", *point_cloud_ptr) == -1) //* load the file
+  if (pcl::io::loadPCDFile<pcl::PointXYZ> ("body_visible_rotated.pcd", *point_cloud_ptr) == -1) //* load the file
   {
     PCL_ERROR ("Couldn't read file test_pcd.pcd \n");
     return (-1);
